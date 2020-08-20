@@ -1,0 +1,14 @@
+.cat {
+    background: purple;
+    padding: 2em;
+}
+.mood_button {
+    padding: 0.5em 1em;
+    background: darkorange;
+    color: white;
+    margin: 2em;
+    transition: background-color 1s linear;
+}
+.mood_button:hover {
+    background: darkseagreen;
+}

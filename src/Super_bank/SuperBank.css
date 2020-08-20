@@ -1,0 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+
+.credit_card {
+   background: #9400d3;
+   padding: 2em;
+}
+.heading {
+    font-family: 'Dancing Script', cursive;
+}
+.bank_container {
+    background: deepskyblue;
+    width: 50%;
+    margin: 1em auto;
+    padding: 1em
+}
+.bank_button {
+    background: deepskyblue;
+    padding: 0.5em 1em;
+    margin: 1em;
+    border-radius: 10px;
+}

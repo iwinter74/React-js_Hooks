@@ -1,24 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
+import ClassComp from './ClassComp';
+import Hooks from './Hooks'
 import './App.css';
+import Hooks2 from './Hooks2';
+import Counter from './Counter';
+import Faq from './Faq';
+import Schalter from './Schalter';
+import Mood from './Mood';
+import RandomMood from './RandomMood';
+import SuperBank from './Super_bank/SuperBank';
+
+
+// Spread Operators, Array Destruction, hook useState
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <ClassComp /> */}
+      <Hooks />
+      <Hooks2 />
+      <Counter />
+      <Faq />
+      <Schalter />
+      <Mood />
+      <RandomMood />
+      <SuperBank />
     </div>
   );
 }

@@ -1,0 +1,14 @@
+.planet {
+    background: deeppink;
+    padding: 2em;
+}
+.random_button {
+    padding: 0.5em 1em;
+    background: darkorange;
+    color: white;
+    margin: 2em;
+    transition: background-color 1s linear;
+}
+.random_button:hover {
+    background: darkseagreen;
+}
